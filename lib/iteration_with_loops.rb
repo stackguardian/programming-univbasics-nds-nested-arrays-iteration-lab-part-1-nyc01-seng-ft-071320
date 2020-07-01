@@ -3,7 +3,7 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
 def find_even_values(src)
-  aoa = [ [10, 11], [99, 50, 3, 4], [23, 41] ]
+  src = [ [10, 11], [99, 50, 3, 4], [23, 41] ]
   row_index = 0
   while row_index < src.count do
     element_index = 0
